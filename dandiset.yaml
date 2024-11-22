@@ -13,7 +13,9 @@ assetsSummary:
 citation: Le Merre, Pierre; Katharina Heining (2024) A Prefrontal Cortex Map based
   on Single Neuron Activity (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001260/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Department of Neuroscience, Karolinska Institutet; Stockholm, 171 77, Sweden.
+    schemaKey: Affiliation
   email: pierre.le.merre@ki.se
   identifier: 0000-0003-4205-7411
   includeInCitation: true
@@ -61,7 +63,8 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
+studyTarget:
+- Functional definition (with single unit activity) of prefrontal regions.
 url: https://dandiarchive.org/dandiset/001260/draft
 version: draft
 wasGeneratedBy: []
