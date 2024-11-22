@@ -2,7 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001260
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Le Merre, Pierre; Katharina Heining (2024) A Prefrontal Cortex Map based
-  on Single Neuron Activity (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001260/draft
+citation: Le Merre, Pierre; Katharina Heining; Marina Slashcheva; Felix Jung; Eleni
+  Moysiadou; Nicolas Guyon; Ram Yahya; Hyunsoo Park; Fredrik Wernstal; Marie Carlén
+  (2024) A Prefrontal Cortex Map based on Single Neuron Activity (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/001260/draft
 contributor:
 - affiliation:
   - name: Department of Neuroscience, Karolinska Institutet; Stockholm, 171 77, Sweden.
@@ -40,6 +43,68 @@ contributor:
   - dcite:Investigation
   - dcite:Methodology
   schemaKey: Person
+- email: marina.slashcheva@ki.se
+  identifier: 0000-0002-7918-8151
+  includeInCitation: true
+  name: Marina Slashcheva
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- email: felix.jung@ki.se
+  identifier: 0000-0002-7565-977X
+  includeInCitation: true
+  name: Felix Jung
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- email: eleni.moysiadou@icm-institute.org
+  includeInCitation: true
+  name: Eleni Moysiadou
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- email: nicolas.guyon@espci.fr
+  identifier: 0000-0003-1287-8606
+  includeInCitation: true
+  name: Nicolas Guyon
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: ram.yahya@outlook.com
+  includeInCitation: true
+  name: Ram Yahya
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: hyunsoo.park@astrazeneca.com
+  identifier: 0000-0001-5754-9617
+  includeInCitation: true
+  name: Hyunsoo Park
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: fredrik.wernstal@ki.se
+  identifier: 0009-0002-4192-5897
+  includeInCitation: true
+  name: Fredrik Wernstal
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: marie.carlen@ki.se
+  identifier: 0000-0003-1658-1631
+  includeInCitation: true
+  name: Marie Carlén
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:Supervision
+  - dcite:Visualization
+  schemaKey: Person
 dateCreated: '2024-11-21T16:52:37.341961+00:00'
 description: 'Brain-wide high-density extracellular recordings (Neuropixels) in head-fixed
   mice during distinct passive listening and auditory behavioral tasks. About half
@@ -49,7 +114,17 @@ description: 'Brain-wide high-density extracellular recordings (Neuropixels) in 
   area (PL), infralimbic area (ILA), orbital area – medial, lateral, and ventrolateral
   part (ORBm, ORBvl, ORBl), agranular insular area – dorsal and ventral part (AId,
   AIv), and frontal pole (FRP). '
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+    url: https://www.government.se/government-agencies/central-ethical-committee-on-animal-experiments/
+  identifier: ' 7362-2019 '
+  schemaKey: EthicsApproval
+- contactPoint:
+    schemaKey: ContactPoint
+    url: https://www.government.se/government-agencies/central-ethical-committee-on-animal-experiments/
+  identifier: 1535-2024
+  schemaKey: EthicsApproval
 id: DANDI:001260/draft
 identifier: DANDI:001260
 keywords: []
@@ -59,7 +134,20 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001260/versions/draft/assets/
 name: A Prefrontal Cortex Map based on Single Neuron Activity
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: pfcmap
+  name: Analysis code
+  relation: dcite:IsSupplementTo
+  repository: pfcmap
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/hejDMC/pfcmap
+- identifier: https://doi.org/10.1101/2024.11.06.622308
+  name: Preprint
+  relation: dcite:Cites
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.11.06.622308v2
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
