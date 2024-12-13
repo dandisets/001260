@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001260
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- identifier: UBERON:0000451
+  name: prefrontal cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +13,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Le Merre, Pierre; Katharina Heining; Marina Slashcheva; Felix Jung; Eleni
-  Moysiadou; Nicolas Guyon; Ram Yahya; Hyunsoo Park; Fredrik Wernstal; Marie Carlén
+citation: Le Merre, Pierre; Heining, Katharina; Slashcheva, Marina; Jung, Felix; Moysiadou,
+  Eleni; Guyon, Nicolas; Yahya, Ram; Park, Hyunsoo; Wernstal, Fredrik; Carlén, Marie
   (2024) A Prefrontal Cortex Map based on Single Neuron Activity (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/001260/draft
 contributor:
@@ -35,7 +38,7 @@ contributor:
 - email: katharina.heining@ki.se
   identifier: 0000-0003-1976-3764
   includeInCitation: true
-  name: Katharina Heining
+  name: Heining, Katharina
   roleName:
   - dcite:Author
   - dcite:FormalAnalysis
@@ -45,7 +48,7 @@ contributor:
 - email: marina.slashcheva@ki.se
   identifier: 0000-0002-7918-8151
   includeInCitation: true
-  name: Marina Slashcheva
+  name: Slashcheva, Marina
   roleName:
   - dcite:Author
   - dcite:DataCollector
@@ -53,14 +56,14 @@ contributor:
 - email: felix.jung@ki.se
   identifier: 0000-0002-7565-977X
   includeInCitation: true
-  name: Felix Jung
+  name: Jung, Felix
   roleName:
   - dcite:Author
   - dcite:FormalAnalysis
   schemaKey: Person
 - email: eleni.moysiadou@icm-institute.org
   includeInCitation: true
-  name: Eleni Moysiadou
+  name: Moysiadou, Eleni
   roleName:
   - dcite:Author
   - dcite:DataCollector
@@ -68,34 +71,34 @@ contributor:
 - email: nicolas.guyon@espci.fr
   identifier: 0000-0003-1287-8606
   includeInCitation: true
-  name: Nicolas Guyon
+  name: Guyon, Nicolas
   roleName:
   - dcite:Author
   schemaKey: Person
 - email: ram.yahya@outlook.com
   includeInCitation: true
-  name: Ram Yahya
+  name: Yahya, Ram
   roleName:
   - dcite:Author
   schemaKey: Person
 - email: hyunsoo.park@astrazeneca.com
   identifier: 0000-0001-5754-9617
   includeInCitation: true
-  name: Hyunsoo Park
+  name: Park, Hyunsoo
   roleName:
   - dcite:Author
   schemaKey: Person
 - email: fredrik.wernstal@ki.se
   identifier: 0009-0002-4192-5897
   includeInCitation: true
-  name: Fredrik Wernstal
+  name: Wernstal, Fredrik
   roleName:
   - dcite:Author
   schemaKey: Person
 - email: marie.carlen@ki.se
   identifier: 0000-0003-1658-1631
   includeInCitation: true
-  name: Marie Carlén
+  name: Carlén, Marie
   roleName:
   - dcite:Author
   - dcite:Conceptualization
