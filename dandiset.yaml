@@ -54,8 +54,8 @@ assetsSummary:
   - BehavioralEvents
 citation: Le Merre, Pierre; Heining, Katharina; Slashcheva, Marina; Jung, Felix; Moysiadou,
   Eleni; Guyon, Nicolas; Yahya, Ram; Park, Hyunsoo; Wernstal, Fredrik; Carlén, Marie
-  (2025) A Prefrontal Cortex Map based on Single Neuron Activity (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001260/draft
+  (2025) A Prefrontal Cortex Map based on Single Neuron Activity (Version 0.250911.0744)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001260/0.250911.0744
 contributor:
 - affiliation:
   - name: Department of Neuroscience, Karolinska Institutet; Stockholm, 171 77, Sweden.
@@ -156,6 +156,7 @@ description: 'Brain-wide high-density extracellular recordings (Neuropixels) in 
   area (PL), infralimbic area (ILA), orbital area – medial, lateral, and ventrolateral
   part (ORBm, ORBvl, ORBl), agranular insular area – dorsal and ventral part (AId,
   AIv), and frontal pole (FRP). '
+doi: 10.48324/dandi.001260/0.250911.0744
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -167,13 +168,13 @@ ethicsApproval:
     url: https://www.government.se/government-agencies/central-ethical-committee-on-animal-experiments/
   identifier: 1535-2024
   schemaKey: EthicsApproval
-id: DANDI:001260/draft
+id: DANDI:001260/0.250911.0744
 identifier: DANDI:001260
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001260/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001260/0.250911.0744/assets.yaml
 name: A Prefrontal Cortex Map based on Single Neuron Activity
 protocol: []
 publishedBy:
@@ -207,6 +208,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget:
 - Functional definition (with single unit activity) of prefrontal regions.
-url: https://dandiarchive.org/dandiset/001260/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001260/0.250911.0744
+version: 0.250911.0744
 wasGeneratedBy: []
